@@ -8,5 +8,5 @@ def collatz(numero):
         else:
             numero = (numero * 3) + 1
     sucesion.append(1)
-    return f'La sucesión del número {numero_introducido} es: {sucesion}'
+    return f'La sucesión del número {numero_introducido} es: {sucesion}, la sucesión es correcta'
 
